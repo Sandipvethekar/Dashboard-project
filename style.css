@@ -1,0 +1,65 @@
+i
+{
+    font-size: 21px;
+    color:white;
+}
+.menu 
+{
+    font-size: 21px;
+}
+.sidebar
+{
+    width: 250px;
+}
+/*Drop-down*/
+.sidebar-link
+{
+    display: flex;
+    align-content: center;
+}
+.sidebar-link .right-icon 
+{
+    display: inline-flex;
+    transition: all ease 0.2s;
+}
+.sidebar-link [aria-expanded="true"].right-icon
+{
+  transform: rotate(180deg);  
+}
+
+.right-link 
+{
+    font-size: 15px;
+}
+/*dashboard*/
+.today
+{
+    display:flex;
+    justify-content: space-between;
+}
+/*site*/
+.card-image 
+{
+    font-size: 50px;
+}
+@media (min-width:992px)
+{
+    body 
+    {
+        overflow: auto;
+    }
+    .offcanvas-backdrops::after
+    {
+        display:none ;
+    }
+    .offcanvas 
+    {
+        transform: none;
+        visibility: visible;
+    }
+    section 
+    {
+        margin-left: 260px;
+        
+    }
+}

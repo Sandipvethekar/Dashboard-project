@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-secondary navbar-dark fixed-top">
+       <div class="container-fluid">
+           <button type="button"class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#myoffcanvas" 
+             aria-controls="myoffcanvas">
+             <span class="navbar-toggler-icon" data-bs-target=""></span>
+          </button>
+           <button type="button" class="navbar-toggler" data-bs-toggle="collapse"  data-bs-target="#mynav" >
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           
+       </div>
+    </nav> 
+    <div class="offcanvas offcanvas-start bg-dark text-light sidebar" tabindex="-1" id="myoffcanvas" 
+    aria-labelledby="myoffcanvas">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Website Name</h5>
+             <button  type="button"class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav>
+                <ul class="navbar-nav menu">
+                    <li>
+                        <a href="index.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-speedometer ps-2"></i></span>
+                            Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="user.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-person-circle ps-2"></i></span>
+                            User</a>
+                    </li>
+                    <li>
+                        <a href="site.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-diagram-2 ps-2"></i></span>
+                            Site</a>
+                    </li>
+                    <li>
+                        <a href="email.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-envelope ps-2"></i></span>
+                            Email</a>
+                    </li>
+                    <li>
+                        <a href="settings.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-gear ps-2"></i></span>
+                            Settings</a>
+                    </li>
+                    <li>
+                        <a href="#mycollapse" class="nav-link text-light sidebar-link" data-bs-toggle="collapse"
+                         role="button" aria-expanded="false" aria-controls="mycollapse" > 
+                            <span><i class="bi bi-upc ps-2"></i></span>
+                            <span>Course</span>
+                            <span class="right-icon ms-auto "><i class=" bi bi-chevron-down"></i></span>
+                        </a>
+                        <div class="collapse" id="mycollapse">
+                           <div class="">
+                               <ul class="navbar-nav ps-5  right-link">
+                                   <li><a href="" class="nav-link text-light">HTML</a></li>
+                                   <li><a href="" class="nav-link text-light">HTML5</a></li>
+                                   <li><a href="" class="nav-link text-light">CSS</a></li>
+                                   <li><a href="" class="nav-link text-light">CSS3</a></li>
+                                   <li><a href="" class="nav-link text-light">JAVA-SCRIPT</a></li>
+                                   <li><a href="" class="nav-link text-light">JQUERY</a></li>
+                                   <li><a href="" class="nav-link text-light">BOOTSTRAP</a></li>
+                               </ul>
+                            </div> 
+                        </div>
+                    </li> 
+                    <li>
+                        <a href="" class="nav-link text-light" > 
+                            <span><i class="bi bi-person-video2 ps-2"></i></span>
+                            Coaching
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-light"> 
+                            <span><i class="bi bi-info-circle ps-2"></i></span>
+                            Help</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-light"> 
+                            <span><i class="bi bi-box-arrow-right ps-2"></i></span>
+                            Log-out</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class=" mt-5 pt-5"> 
+        <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-12 col-sm-12">
+                  <div>
+                      <h1>
+                          <b>Theme</b>
+                      </h1>
+                      <h4>Logo &amp;Branding</h4>
+                      <p>Add a custom logo and/or favicon, and adjust your school thumbnai</p>
+                    </div>
+                    
+                </div> 
+           </div>
+           <div class="row pt-5">
+               <div class="col-md-4 col-sm-12">
+                    <div class="card text-dark bg-light">
+                        <div class="card-header">
+                            Logo &amp; Branding
+                        </div>
+                        <div class="card-body text-center">
+                            <p>
+                                <i class="bi bi-card-image text-dark card-image"></i>
+                            </p>
+                            <h6>
+                                Upload Your Thumbnai
+                            </h6>
+                            <p>
+                                Recommended format:960 * 540 pixels (PNG or JPG)
+                            </p>
+                            <input type="file" class="btn btn-danger form-control-sm" name="sa" id="is">
+                        </div>
+                    </div>
+               </div>
+               <div class="col-md-4 col-sm-12">
+                <div class="card text-dark bg-light">
+                    <div class="card-header">
+                        Logo &amp; Branding
+                    </div>
+                    <div class="card-body text-center">
+                        <p>
+                            <i class="bi bi-card-image text-dark card-image"></i>
+                        </p>
+                        <h6>
+                            Upload Your Thumbnai
+                        </h6>
+                        <p>
+                            Recommended format:960 * 540 pixels (PNG or JPG)
+                        </p>
+                        <button type="button" class="btn btn-primary">Upload</button>
+                    </div>
+                </div>
+           </div>
+           <div class="col-md-4 col-sm-12">
+            <div class="card text-dark bg-light">
+                <div class="card-header">
+                    Logo &amp; Branding
+                </div>
+                <div class="card-body text-center">
+                    <p>
+                        <i class="bi bi-card-image text-dark card-image"></i>
+                    </p>
+                    <h6>
+                        Upload Your Thumbnai
+                    </h6>
+                    <p>
+                        Recommended format:960 * 540 pixels (PNG or JPG)
+                    </p>
+                    <button type="button" class="btn btn-primary">Upload</button>
+                </div>
+            </div>
+       </div>
+           </div>
+        </div>
+       
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#t").DataTable();
+        })
+    </script>
+</body>
+</html>

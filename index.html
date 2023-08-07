@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+       <div class="container-fluid">
+           <button type="button"class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#myoffcanvas" 
+             aria-controls="myoffcanvas">
+             <span class="navbar-toggler-icon" data-bs-target="myoffcanvas"></span>
+          </button>
+           <button type="button" class="navbar-toggler" data-bs-toggle="collapse"  data-bs-target="#mynav" >
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse " id="mynav">
+                <span class="ms-auto">
+                    <i class="bi bi-megaphone"></i>
+                </span>
+                <button  type="button"class="btn btn-light ms-2 ">Veiw Your School</button>
+                <button  type="button"class="btn btn-light ms-2">Create New Product</button>
+           </div>
+       </div>
+    </nav> 
+    <div class="offcanvas offcanvas-start bg-dark text-light sidebar" tabindex="-1" id="myoffcanvas" 
+    aria-labelledby="myoffcanvas">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Website Name</h5>
+             <button  type="button"class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav>
+                <ul class="navbar-nav menu">
+                    <li>
+                        <a href="index.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-speedometer ps-2"></i></span>
+                            Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="user.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-person-circle ps-2"></i></span>
+                            User</a>
+                    </li>
+                    <li>
+                        <a href="site.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-diagram-2 ps-2"></i></span>
+                            Site</a>
+                    </li>
+                    <li>
+                        <a href="email.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-envelope ps-2"></i></span>
+                            Email</a>
+                    </li>
+                    <li>
+                        <a href="settings.html" class="nav-link text-light"> 
+                            <span><i class="bi bi-gear ps-2"></i></span>
+                            Settings</a>
+                    </li>
+                    <li>
+                        <a href="#mycollapse" class="nav-link text-light sidebar-link"
+                         data-bs-toggle="collapse"
+                         role="button" aria-expanded="false" aria-controls="mycollapse" > 
+                            <span><i class="bi bi-upc ps-2"></i></span>
+                            <span>Course</span>
+                            <span class="right-icon ms-auto "><i class=" bi bi-chevron-down"></i></span>
+                        </a>
+                        <div class="collapse" id="mycollapse">
+                           <div class="">
+                               <ul class="navbar-nav ps-5  right-link">
+                                   <li><a href="" class="nav-link text-light">HTML</a></li>
+                                   <li><a href="" class="nav-link text-light">HTML5</a></li>
+                                   <li><a href="" class="nav-link text-light">CSS</a></li>
+                                   <li><a href="" class="nav-link text-light">CSS3</a></li>
+                                   <li><a href="" class="nav-link text-light">JAVA-SCRIPT</a></li>
+                                   <li><a href="" class="nav-link text-light">JQUERY</a></li>
+                                   <li><a href="" class="nav-link text-light">BOOTSTRAP</a></li>
+                               </ul>
+                            </div> 
+                        </div>
+                    </li> 
+                    <li>
+                        <a href="" class="nav-link text-light" > 
+                            <span><i class="bi bi-person-video2 ps-2"></i></span>
+                            Coaching
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-light"> 
+                            <span><i class="bi bi-info-circle ps-2"></i></span>
+                            Help</a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link text-light"> 
+                            <span><i class="bi bi-box-arrow-right ps-2"></i></span>
+                            Log-out</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class=" mt-5 pt-5"> 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <p>
+                        <b>Today</b>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col-md-3 col-sm-12">
+                     <div class="card bg-light text-dark " style="width: 100%;">
+                         <div class="card-body today">
+                         <div>
+                             <p>59</p>
+                             <p>New Signup</p>
+                         </div>
+                         <div>
+                            <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                            <p>Yesterday</p>
+                        </div>
+                        </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 col-sm-12">
+                    <div class="card bg-light text-dark " style="width: 100%;">
+                        <div class="card-body today">
+                        <div>
+                            <p>59</p>
+                            <p>New Signup</p>
+                        </div>
+                        <div>
+                           <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                           <p>Yesterday</p>
+                       </div>
+                       </div>
+                    </div>
+                     
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="card bg-light text-dark " style="width: 100%;">
+                        <div class="card-body today">
+                        <div>
+                            <p>59</p>
+                            <p>New Signup</p>
+                        </div>
+                        <div>
+                           <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                           <p>Yesterday</p>
+                       </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="card bg-light text-dark " style="width: 100%;">
+                        <div class="card-body today">
+                        <div>
+                            <p>59</p>
+                            <p>New Signup</p>
+                        </div>
+                        <div>
+                           <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                           <p>Yesterday</p>
+                       </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 col-sm-12">
+                    <p class="pt-5">
+                        <b>This Month</b>
+                    </p>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card bg-light text-dark " style="width: 100%;">
+                        <div class="card-body today">
+                        <div>
+                            <p>59</p>
+                            <p>New Signup</p>
+                        </div>
+                        <div>
+                           <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                           <p>Yesterday</p>
+                       </div>
+                       </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 col-sm-12">
+                    <div class="card bg-light text-dark " style="width: 100%;">
+                        <div class="card-body today">
+                        <div>
+                            <p>59</p>
+                            <p>New Signup</p>
+                        </div>
+                        <div>
+                           <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                           <p>Yesterday</p>
+                       </div>
+                       </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 col-sm-12">
+                    <div class="card bg-light text-dark " style="width: 100%;">
+                        <div class="card-body today">
+                        <div>
+                            <p>59</p>
+                            <p>New Signup</p>
+                        </div>
+                        <div>
+                           <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                           <p>Yesterday</p>
+                       </div>
+                       </div>
+                    </div>
+                </div> 
+                <div class="col-md-3 col-sm-12">
+                    <div class="card bg-light text-dark " style="width: 100%;">
+                        <div class="card-body today">
+                        <div>
+                            <p>59</p>
+                            <p>New Signup</p>
+                        </div>
+                        <div>
+                           <p><i class="bi bi-graph-up text-dark"></i>99.9%</p>
+                           <p>Yesterday</p>
+                       </div>
+                       </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-12 col-sm-12">
+                    <div class="card" style="width: 100%;">
+                         <div class="card-header">
+                             <p>Live Feed</p>
+                         </div>
+                         <div class="card-body">
+                             
+                         </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+       
+    </section>
+</body>
+</html>
